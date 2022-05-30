@@ -888,7 +888,14 @@ header {
     cursor: pointer;
 }
 
+.item-botonesentradas input:hover {
+    box-shadow: 0 0.2rem 0.2rem #141414;
+}
 
+.item-botonesentradas input:active {
+    transform:translateY(4px) translateX(4px);
+    box-shadow: #141414 0px 0px 0px;
+}
 
 
 .cajadatosentradas {
