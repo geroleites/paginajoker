@@ -1,0 +1,1099 @@
+* {
+    font-family: 'Roboto Flex', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+header {
+    background-color: whitesmoke;
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+
+.mainlogo {
+    text-align: center;
+    padding-top: 40px;
+}
+
+.mainlogo img {
+   width: 200px;
+   padding-bottom:20px;
+}
+
+#barrademenu {
+    flex-direction: row;
+    align-content: center;
+}
+
+#barrademenu ul {
+    list-style: none;
+}
+
+#barrademenu ul li {
+    display: inline;
+}
+
+#barrademenu a {
+    color: #141414;
+    text-decoration: none;
+    padding:  30px;
+}
+
+
+/* Header hasta acá------------- */
+
+
+#imagenprincipal img {
+    width: 100%;
+    height: 600px;
+}
+
+#eventos {
+    background-color:whitesmoke;
+    font-size: 20px;
+    text-align: center;
+    color: #141414;
+    padding-top: 50px;
+}
+
+#eventos h1 {
+    font-size: 40px;
+}
+
+
+.caja-eventos {
+    padding: 70px 50px;
+    display: grid;    
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 60px;
+    justify-content:center;
+    text-align: center;
+}
+
+
+.item-cajaeventos {
+ 
+    height: 425px;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 0.2rem 0.4rem #141414;
+
+ 
+}
+
+
+
+.item-cajaeventos h2 {
+    padding-bottom: 20px;
+    font-size: 30px;
+    font-weight: normal;
+}
+
+.item-cajaeventos img {
+    width: 350px;
+    height: auto;
+    border-radius: 8px;
+}
+
+#historia {
+    padding: 30px 150px  150px;
+    padding-bottom: 90px;
+    background-color: whitesmoke;
+    color: #141414;
+    text-align: center;
+    font-size: 20px;
+}
+
+#historia h2 {
+    font-size: 40px;
+    padding-bottom: 35px;
+}
+
+/* FOOTER */
+
+#footer {
+    padding: 20px;
+    background-color: #1a1b1c;
+    color: whitesmoke; 
+    font-size: 15px;
+}
+
+.caja-redes {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    
+    color: whitesmoke;
+    text-align: center;
+    gap: 20px;
+}
+
+.item-cajaredes {
+    width: 600px;
+}
+
+.redes {
+    padding-top: 80px;
+}
+.redes ul {
+    list-style: none;
+}
+.redes ul li {
+    display: inline-block;
+}
+
+.redes a {
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+
+}
+
+
+.info {
+   display: grid;
+   grid-template-rows: 1fr 1fr;
+   justify-content: center;
+}
+
+.item-info {
+    width: 300px;
+}
+
+.info img {
+    width: 150px;
+    padding-bottom: 15px;
+}
+
+.info ul {
+    list-style: none;
+}
+
+#redes ul li {
+    display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+/* Responsive */
+
+/* MOBILE */
+
+@media screen and (min-width:170px) and (max-width:576px) {
+
+    #imagenprincipal img {
+        width: 100%;
+        height: 400px;
+    } 
+
+    #eventos h1{
+        font-size: 30px;
+    }
+
+    .tituloevento {
+       padding-left: 40px;
+       padding-right: 40px;
+    }
+
+    .caja-eventos {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding-bottom: 20px;
+    }
+
+    #historia {
+        padding:   20px 45px 45px 45px;
+    }
+
+    .caja-redes {
+        display: grid;
+        grid-template-columns: 1fr ;
+        gap: 0px;
+        color: whitesmoke;
+        text-align: center;
+      
+    }
+    
+    .item-cajaredes {
+        width: auto;
+    }
+
+    .redes {
+        padding-top: 20px;
+    }
+    
+    
+    
+
+
+
+   /* /*  #barrademenu {
+     padding: 20px;
+
+    }
+
+    .menu {
+        display: grid;
+        gap: 15px;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    #barrademenu a {
+        color: #141414;
+        text-decoration: none;
+        padding: 10px;
+        background-color:whitesmoke;
+        border-radius: 8px;
+        align-items: center;
+        align-content: center;
+    } */
+
+   
+   
+    
+
+}
+
+
+
+
+
+/* Tablet */
+
+@media screen and (min-width:576px) and (max-width:992px) {
+    .caja-eventos {   
+        grid-template-columns: 1fr;
+    }
+    
+    .caja-redes {
+        display: grid;
+        grid-template-columns: 1fr ;
+        gap: 0px;
+        color: whitesmoke;
+        text-align: center;
+      
+    }
+    
+    .item-cajaredes {
+        width: auto;
+    }
+    
+    .redes {
+        padding-top: 20px;
+    }
+   
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* hoja de Contacto */
+
+.contacto { 
+    padding: 40px;
+    background-color: whitesmoke;
+}
+
+.contacto h1 {
+    font-size: 55px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.contenedorgridpadre-contacto {         
+    padding: 20px 80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px 30px;
+}
+
+.item-contenedorgrid-contacto {
+  /*   background-color: tomato; */
+    padding: 15px;
+}
+
+.item-contenedorgrid-contacto h2 {
+    font-size: 30px;
+}
+
+.item-contenedorgrid-contacto p {
+    font-size: 20px;
+}
+
+#nombre {
+    width: 560px;
+    padding: 5px;
+    padding-left:10px;
+    font-size: 20px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+#email {
+    width: 560px;
+    padding: 5px;
+    padding-left:10px;
+    font-size: 20px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+#numcel {
+    width: 560px;
+    padding: 5px;
+    padding-left:10px;
+    font-size: 20px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+#date {
+    width: 560px;
+    padding: 5px;
+    padding-left:10px;
+    font-size: 20px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+.item-contenedorgrid-contacto:nth-child(3) {
+    grid-column: 1/3;
+}
+
+.infopaginacontacto {
+    padding-top: 90px;
+   
+}
+
+.condicionesbases h3 {
+    padding-bottom: 15px;
+    font-size: 25px;
+}
+
+
+/* TABLET */
+@media screen and (min-width:576px) and (max-width:992px) { 
+    .contenedorgridpadre-contacto {        
+        display: flex;
+        flex-direction: column;
+        padding: 40px 20px;
+        
+    }
+
+
+
+
+}
+
+/* MOBILE */
+
+@media screen and (min-width:170px) and (max-width:576px) { 
+
+    .contenedorgridpadre-contacto {        
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 40px 20px;
+        
+    }
+    
+    #nombre {
+        width: 250px;
+        height: 30px;
+    }
+
+    #email {
+        width: 250px;
+        height: 30px;
+    }
+    
+    #numcel {
+        width: 250px;
+        height: 30px;
+    }
+    
+    #date {
+        width: 250px;
+        height: 30px;
+    }
+
+    #comentarios {
+        width: 300px;
+    }
+
+    .infopaginacontacto {
+        padding: 20px;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+/* HOJA - QUIENES SOMOS */
+
+
+
+.historia {
+    padding: 40px;
+    background-color: whitesmoke;
+}
+
+.historia h2 { 
+    font-size: 55px;
+    padding: 20px;
+    text-align: center;
+}
+
+.historia h3 {
+    padding-top: 20px;
+    padding-bottom: 5px;
+    padding-left: 60px;
+    font-size: 30px;
+}
+
+.historia p {
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+.productos {
+    background-color: rgb(232, 232, 228);
+    padding: 25px;
+    text-align: center;
+}
+
+.productos h2 {
+    padding-bottom: 15px;
+    font-size: 40px;
+}
+
+.productos h3 {
+    padding-top: 20px;
+    padding-bottom: 5px;
+    padding-left: 60px;
+    font-size: 30px;
+}
+
+.productos h5 {
+    font-size: 20px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: start;
+    padding-left: 60px;
+}
+
+.productos p {
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* HOJA EVENTOS */
+
+.eventos {
+    padding: 40px;
+    display: block;
+    background-color: whitesmoke;
+
+}
+
+.eventos h1 {
+    font-size: 55px;
+    padding: 20px;
+    text-align: center;
+}
+
+.cajaeventos {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 25px;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.item-cajaeventos1 {
+    padding: 20px;
+}
+
+.item-cajaeventos1 img {
+    width: 700px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.item-cajaeventos1 p {
+    text-align: center;
+    font-size: 20px;
+}
+
+.eventosfiestas {
+    padding: 30px;
+    background-color: #141414;
+    color: whitesmoke;
+}
+
+.titulofiestas {
+    padding: 20px 150px 0px 150px;
+}
+
+.titulofiestas h2 {
+    font-size: 45px;
+    text-align: center;
+}
+
+.titulofiestas p {
+    padding: 25px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.cajamubby {
+    padding: 80px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 40px;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.cajamubby h3 {
+    font-size: 30px;
+}
+
+.item-cajamubby img {
+    padding: 20px;
+    width: 400px;
+    height: auto;
+}
+
+.item-cajamubby p {
+    text-align: center;
+    font-size: 20px;
+}
+
+.cajacronox {
+    padding: 35px 120px 10px 120px;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    gap: 40px;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.cajacronox h3 {
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+.item-cajacronox img {
+    padding: 20px;
+    width: 500px;
+    height: auto;
+}
+
+.item-cajacronox p {
+    text-align: center;
+    font-size: 20px;
+}
+
+
+
+
+
+.eventosferias {
+    padding: 30px;
+}
+
+.tituloferias {
+    padding: 20px 150px 0px 150px;
+}
+
+.tituloferias h2 {
+    font-size: 45px;
+    text-align: center;
+}
+
+.tituloferias p {
+    padding-top: 25px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.cajaferia {
+    padding: 35px 120px 10px 120px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 40px;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.cajaferia h3 {
+    font-size: 30px;
+}
+
+.item-cajaferia img {
+    width: 400px;
+    height: auto;
+}
+
+.item-cajaferia p {
+    text-align: center;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+.eventoscampeonato {
+    padding: 30px;
+    background-color:  #141414;
+    color: whitesmoke;
+}
+
+.titulocampeonato {
+    padding: 20px 150px 0px 150px;
+}
+
+.titulocampeonato h2 {
+    font-size: 45px;
+    text-align: center;
+}
+
+.titulocampeonato p {
+    padding-top: 25px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.cajacampeonato {
+    padding: 35px 120px 10px 120px;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    gap: 40px;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.cajacampeonato h3 {
+    font-size: 30px;
+}
+
+.item-cajacampeonato img {
+    width: 400px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.item-cajacampeonato p {
+    text-align: center;
+    font-size: 20px;
+}
+
+
+
+
+
+
+.eventoscharlas {
+    padding: 30px;
+}
+
+.titulocharlas {
+    padding: 20px 150px 0px 150px;
+}
+
+.titulocharlas h2 {
+    font-size: 45px;
+    text-align: center;
+}
+
+.titulocharlas p {
+    padding-top: 25px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.cajacharlas {
+    padding: 35px 120px 10px 120px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 40px;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.cajacharlas h3 {
+    font-size: 30px;
+}
+
+.item-cajacharlas img {
+    width: 400px;
+    height: auto;
+}
+
+.item-cajacharlas p {
+    text-align: center;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+/* HOJA ENTRADAS */
+
+.tituloentradas {
+    padding: 40px;
+    background-color: whitesmoke;
+}
+
+
+.tituloentradas h1 {
+    font-size: 55px;
+    padding: 20px;
+    text-align: center;
+}
+
+
+
+
+.encabezadoentradas {
+    padding: 5px 0px 30px 90px;
+    background-color: whitesmoke;
+}
+
+.encabezadoentradas h2 {
+    padding: 5px;
+    font-size: 45px;
+}
+
+.encabezadoentradas p {
+    padding: 5px;
+    font-size: 20px;
+}
+
+.cajaentradas {
+    background-color: whitesmoke; 
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: center;
+    height: auto;
+    flex-wrap: wrap;
+}
+
+.item-cajaentradas {
+    color: #141414;
+    padding: 20px;
+    width: 550px;
+    height: auto;
+    font-size: 20px;
+}
+
+.imagenentradas img {
+    padding-top: 15px;
+    width: 400px;
+    height: 100px;
+}
+
+.botonesentradas {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+}
+
+.item-botonesentradas input {
+    width: 250px;
+    height: 40px;
+    background-color: #141414;
+    color:whitesmoke;
+    font-size: 20px;
+    border-radius: 8px;
+    border-color:#141414;
+
+    transition: box-shadow 0.2s ease;
+    cursor: pointer;
+}
+
+
+
+.cajadatosentradas {
+    padding-bottom: 10px;
+
+}
+
+.item-cajadatosentradas {
+    padding:5px;
+}
+
+.infodatosentradas {
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #141414;
+    color: whitesmoke;
+    width: 450px;
+    height: auto;
+    text-align: center;
+}
+
+
+
+.item-cajaentradas iframe {
+    padding-top: 10px;
+    width: 470px;
+    height: 200px;
+}
+
+
+/* responsive entradas */
+
+/* MOBILE */
+@media screen and (min-width:170px) and (max-width:576px) {
+
+    .tituloentradas {
+        padding-bottom: 0px;
+    }
+
+    .encabezadoentradas {
+        padding: 0px 25px;
+        text-align: center;
+    }
+
+    .encabezadoentradas h2 {
+        font-size: 30px;
+    }
+
+    .encabezadoentradas p {
+        font-size: 18px;
+    }
+
+    .cajaentradas {
+        padding: 10px;
+    }
+
+    .item-cajaentradas {
+        background-color: gray; /* estos colores son simplemente para resaltar el responsive */
+        border-radius: 5px;
+        width: 450px;
+    }
+
+    .item-botonesentradas input {
+        width: 150px;
+        height: 40px;
+      
+    }
+
+    .botonesentradas {
+        padding-top: 10px;
+ 
+    }
+
+    .infodatosentradas {
+        width: 350px;
+        height: auto;  
+    }
+    
+    
+    
+    .item-cajaentradas iframe {
+        padding-top: 10px;
+        width: 400px;
+        height: 200px;
+    }
+
+
+}
+
+/* Tablet */
+
+@media screen and (min-width:576px) and (max-width:992px) {
+
+    .tituloentradas {
+        padding-bottom: 0px;
+    }
+
+    .encabezadoentradas {
+        padding: 0px 25px;
+        text-align: center;
+    }
+
+
+    .item-cajaentradas {
+        background-color: gray; /* estos colores son simplemente para resaltar el responsive */
+        border-radius: 5px;
+        width: 650px;
+    }
+
+    .infodatosentradas {
+        width: 500px;
+        height: auto;  
+    }
+    
+    
+    .item-cajaentradas iframe {
+        padding-top: 10px;
+        width: 500px;
+        height: 200px;
+    }
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* HOJA GALERIA */
+
+
+.cabezeragaleria {
+    padding: 40px;
+    background-color: whitesmoke;
+}
+
+.cabezeragaleria h1 {
+    font-size: 55px;
+    padding: 20px;
+    text-align: center;
+}
+
+.cabezeragaleria p {
+    padding: 20px;
+    font-size: 20px;
+}
+
+.caja-galeria {
+    padding: 20px;
+    background-color: rgb(251, 251, 251);
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.itemcaja-galeria div {
+    display: block;
+}
+
+.itemcaja-galeria {
+    background-color: #040303;
+    width: 500px;
+    height: 400px;
+    color: white;
+    text-align: center;
+    border: 2px solid #040303;
+
+}
+
+.itemcaja-galeria h2{
+    font-size: 30px;
+    padding: 20px;
+}
+
+.itemcaja-galeria img {
+    width: 300px;
+    height: 200px;
+    padding: 20px;
+    border-radius: 15px;
+}

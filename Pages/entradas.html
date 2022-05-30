@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joker Productora</title>
+    <link rel="stylesheet" href="../CSS/stylesheet.css">
+</head>
+
+<body>
+    
+    <header>
+        <div class="mainlogo" >
+            <a href="../index.html"><img src="../Img/joker-negro.png" alt="logojoker"></a>
+        </div>
+        <nav id="barrademenu">
+            <ul class="menu">
+                <a href="../index.html"><li> Inicio</li></a>
+                <a href="../Pages/quienessomos.html"><li> Quienes somos</li></a>
+                <a href="../Pages/eventos.html"><li> Eventos</li></a>
+                <a href="../Pages/galeria.html"><li> Galeria</li></a>
+                <a href="../Pages/entradas.html"><li> Entradas</li></a> 
+                <a href="../Pages/contacto.html"><li> Contactos</li></a>  
+            </ul>
+        </nav>
+    </header>
+
+    <hr>
+    
+    <main>
+
+        <div class="tituloentradas">
+            <h1>Entradas</h1>
+        </div>
+
+        <div class="encabezadoentradas">
+            <h2>Conseguí tu entrada aquí</h2>
+            <p>Contamos con todos los medios de pago disponibles</p>
+            <p>Una vez que completes los dato solicitados, tus entradas te llegarán al email indicado</p>
+        </div>
+
+        <section>
+            <div class="cajaentradas">
+
+                <div class="item-cajaentradas">
+                    <form action="enviar" method="get" enctype="text/plain">
+                        <div>
+                            <label for="">Seleccione el evento</label>
+                            <select name="evento" id="evento">
+                                <option value="01">Fiesta Mubby</option>
+                                <option value="02">Fiesta Cronox</option>
+                                <option value="03">Feria a Cielo Abierto</option>
+                                <option value="03">Charla Ted</option>
+                                <option value="03">Tacualeague</option>
+                            </select>
+                        </div>
+                        <div class="imagenentradas">
+                            <img src="../Img/cronox-negro.png" alt="">
+                        </div>
+                        <br>
+                        <div>
+                            <label for="">Seleccione cantidad de entradas</label>
+                            <select name="numentradas" id="numentradas">
+                                <option value="01">1</option>
+                                <option value="02">2</option>
+                                <option value="03">3</option>
+                                <option value="03">4</option>
+                                <option value="03">5</option>
+                            </select>
+                        </div>
+                        <br>
+                        <div>
+                            <label for="email">Email:</label> <!-- SE CAMBIO ID DE FORMA MOMENTÀNEA -->
+                            <input type="email" id="emails" placeholder="Ingrese su email" required>
+                        </div>
+                        <br>
+                        <div>
+                            <label for="">Seleccione medio de pago</label>
+                            <select name="mediopago" id="mediopago">
+                                <option value="01">Tarjeta Debito</option>
+                                <option value="02">Tarjeta Crédito</option>
+                                <option value="03">Redes de cobranzas</option>
+                                <option value="03">Mercado Pago</option>
+                            </select>
+                        </div>
+                        <br>
+                        <div>
+                            <div class="botonesentradas">
+                                <div class="item-botonesentradas">
+                                    <input type="submit" value="Comprar">
+                                </div>
+                                <div class="item-botonesentradas">    
+                                    <input type="submit" value="Cancelar">
+                                </div>
+                            </div>
+                        </div>    
+                    </form>
+                </div> 
+                <div class="item-cajaentradas">
+                    <div class="cajadatosentradas">
+                        <div>
+                            <div>Fecha</div>
+                        </div>
+                        <div class="item-cajadatosentradas">
+                            <div class="infodatosentradas"> 24/12/2023</div>
+                        </div>
+                        <div>
+                            <div>Hora</div>
+                        </div>
+                        <div class="item-cajadatosentradas">
+                            <div class="infodatosentradas">22:30</div>
+                        </div>     
+                       
+                    </div>    
+                    <div> 
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13575.280677113216!2d-55.99344571283233!3d-31.720806996027967!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a84e6295b41253%3A0xda822eef98b12c43!2s45000%20Tacuaremb%C3%B3%2C%20Departamento%20de%20Tacuaremb%C3%B3!5e0!3m2!1ses-419!2suy!4v1652669144693!5m2!1ses-419!2suy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>  
+                      
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <div class="item-contenedorgrid">
+        <footer id="footer">
+            <div class="caja-redes">
+                <div class="item-cajaredes">
+                    <div class="info">
+                        <div class="item-info">
+                            <img src="../Img/joker-blanco.png" alt="">
+                        </div>
+                        <div class="item-info">    
+                            <ul>
+                                <li>Tacuarembó, Uruguay</li>
+                                <li> + 598 91 319 046</li>
+                                <li>info@jokereventos.com.uy</li>
+                                <li>Todos los derechos reservados</li>
+                            </ul>
+                        </div>    
+                    </div>    
+                </div>
+                <div class="item-cajaredes"> 
+                    <div class="redes">
+                        <ul class="listaredes"> 
+
+                            <a href="https://www.facebook.com/fiestasjoker/" target="_blank"><li>Facebook</li></a> 
+                            <a href="https://www.instagram.com/fiestajoker/?hl=es" target="_blank"><li>Instagram</li></a>
+                            <a href="https://twitter.com/fiestajoker?lang=es" target="_blank"><li>Twitter</li></a> 
+                            <a href="https://www.google.com.uy/" target="_blank"><li>Google</li></a> 
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+  
+</body>
+</html>

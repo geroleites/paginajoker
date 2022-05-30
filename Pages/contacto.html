@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joker Productora</title>
+    <link rel="stylesheet" href="../CSS/stylesheet.css">
+</head>
+
+<body>
+    <header>
+        <div class="mainlogo" >
+            <a href="../index.html"><img src="../Img/joker-negro.png" alt="logojoker"></a>
+        </div>
+        <nav id="barrademenu">
+            <ul class="menu">
+                <a href="../index.html"><li> Inicio</li></a>
+                <a href="../Pages/quienessomos.html"><li> Quienes somos</li></a>
+                <a href="../Pages/eventos.html"><li> Eventos</li></a>
+                <a href="../Pages/galeria.html"><li> Galeria</li></a>
+                <a href="../Pages/entradas.html"><li> Entradas</li></a> 
+                <a href="../Pages/contacto.html"><li> Contactos</li></a>  
+            </ul>
+        </nav>
+    </header>
+
+    <hr>
+
+    <main>
+        <div class="contacto">
+            <h1>Contactanos</h1>
+        </div>
+
+        <section>
+            <div class="contenedorgridpadre-contacto">
+
+                <div class="item-contenedorgrid-contacto">
+                    <form action="enviar" method="get" enctype="text/plain" class="item-cajaformulario">
+                        <div class="camposcontacto">
+                            <label for="nombre"></label>
+                            <input type="text" id="nombre" placeholder="Ingrese su nombre" required> <!-- Le ponemos el id de "nombre", para que se conecte con el label de nombre: -->
+                        </div>
+                        <br>
+                        <div class="camposcontacto">
+                            <label for="email"></label>
+                            <input type="email" id="email" placeholder="Ingrese su email" required>
+                        </div>
+                        <br>
+                        <div class="camposcontacto">
+                            <label for="numcel"></label>
+                            <input type="text" id="numcel" placeholder="Ingrese su celular" required>
+                        </div>
+                        <br>
+                        <div class="camposcontacto">
+                            <label for="numcel"></label>
+                            <input type="date" id="date"  required>
+                        </div>
+                        <br>
+                        <div>
+                            <textarea name="comentarios" id="comentarios" cols="80" rows="15" placeholder="Dejanos aquí tu consulta"></textarea> 
+                        </div>
+                        <br>
+                        <div>
+                            <label for="">Estas contento con la atención recibida por parte del equipor de Joker?</label>
+                            <input type="radio" name="curso" value="1"> Si
+                            <input type="radio" name="curos" value="2"> No
+                        </div>
+                        <br>
+                        <div>
+                            <label for="">Quiero recibir las noticias de Joker a través de mi email</label>
+                            <input type="checkbox" id="acepto">
+                        </div>
+                        <br>
+                        <div>
+                            <label for="">Elige tu País</label>
+                            <select name="pais" id="pais">
+                                <option value="01">Argentina</option>
+                                <option value="02">Uruguay</option>
+                                <option value="03">Brasil</option>
+                                <option value="03">Otro País</option>
+                            </select>
+                        </div>
+                        <br>
+                        <div>
+                            <input type="submit">
+                            <input type="reset" value="Borrar todo">
+                        </div>
+                    </form>
+                </div>
+
+                <div class="item-contenedorgrid-contacto">
+                    <div class="infopaginacontacto">
+                        <h2>Nos encanta que nos des tu opinión!</h2>
+                        <br>
+                        <p>Cómo todos saben, a la comunidad Joker, la creamos entre todos.</p>
+                        <br>
+                        <p>Para poder asegurarnos de que tu sugerencia, comentario o critica, nos llegue de forma correcta, te pedimos por favor que llenes de forma correcta los campos que te pedimos.</p>
+                        <br>
+                        <p> Uno de nuestros principales objetivos dentro de Joker, es poder estar cerca de nuestros clientes ! Es por eso, que nos comproemtemos a responderte en un máximo de 24 hs.</p>
+                        <br>
+                        <p>Recordá que tambien podes escribirnos por nuestras redes socilaes o cualquiera de nuestros canales de comunicación.</p>
+                        <br>
+                        <p>Te recordamos que nuestro horario de atención al cliente es de Lunes a Viernes de 9:00 hs. a 17:00 hs.</p>
+                    </div>
+                </div>
+
+                <div class="item-contenedorgrid-contacto">
+                    <div class="condicionesbases">
+                        <h3>Terminos y condiciones</h3>
+                        <p>Los datos personales recogidos en esta consulta serán incorporados y tratados en una base de datos cuya finalidad es recibir y responder consultas.</p>
+                        <br>
+                        <p>El responsable de la base de datos es Joker Productora SA, ante la cual podrá ejercer los derechos de acceso, rectificación, actualización, inclusión o supresión, todo lo cual se informa en cumplimiento de la Ley N°18.331 del 11 de agosto de 2008.
+                        </p>
+                        <br>
+                        <p>Al proceder en el envío de su consulta usted está aceptando la cláusula de consentimiento informado para el tratamiento de sus datos personales.</p>
+                    </div>
+                    <br>
+                    <div>
+                        <label for="">Acepto los terminos y condiciones de la cláusula</label>
+                        <input type="checkbox" id="acepto">
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+    </main>
+
+    <div class="item-contenedorgrid">
+        <footer id="footer">
+            <div class="caja-redes">
+                <div class="item-cajaredes">
+                    <div class="info">
+                        <div class="item-info">
+                            <img src="../Img/joker-blanco.png" alt="">
+                        </div>
+                        <div class="item-info">    
+                            <ul>
+                                <li>Tacuarembó, Uruguay</li>
+                                <li> + 598 91 319 046</li>
+                                <li>info@jokereventos.com.uy</li>
+                                <li>Todos los derechos reservados</li>
+                            </ul>
+                        </div>    
+                    </div>    
+                </div>
+                <div class="item-cajaredes"> 
+                    <div class="redes">
+                        <ul class="listaredes"> 
+
+                            <a href="https://www.facebook.com/fiestasjoker/" target="_blank"><li>Facebook</li></a> 
+                            <a href="https://www.instagram.com/fiestajoker/?hl=es" target="_blank"><li>Instagram</li></a>
+                            <a href="https://twitter.com/fiestajoker?lang=es" target="_blank"><li>Twitter</li></a> 
+                            <a href="https://www.google.com.uy/" target="_blank"><li>Google</li></a> 
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+   
+
+    
+</body>
+</html>
