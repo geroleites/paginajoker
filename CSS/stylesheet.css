@@ -889,12 +889,12 @@ header {
 }
 
 .item-botonesentradas input:hover {
-    box-shadow: 0 0.2rem 0.2rem tomato;
+    box-shadow: 0 0.2rem 0.2rem #141414;
 }
 
 .item-botonesentradas input:active {
     transform:translateY(4px) translateX(4px);
-    box-shadow: tomato 0px 0px 0px;
+    box-shadow: #141414 0px 0px 0px;
 }
 
 
