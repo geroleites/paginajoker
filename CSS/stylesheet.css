@@ -326,6 +326,7 @@ header {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 50px 30px;
+    background-color: whitesmoke;
 }
 
 .item-contenedorgrid-contacto {
